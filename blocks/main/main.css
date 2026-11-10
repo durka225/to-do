@@ -1,4 +1,5 @@
 .main {
   grid-row: 1/2;
+  min-inline-size: 0;
   padding-block-start: 50px;
 }

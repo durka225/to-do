@@ -8,3 +8,11 @@
   padding-inline-start: 50px;
   padding-inline-end: 50px;
 }
+
+@media (max-width: 520px) {
+  .to-do__title {
+    font-size: 36px;
+    line-height: 44px;
+    padding-inline: 0;
+  }
+}

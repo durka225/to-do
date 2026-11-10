@@ -1,8 +1,15 @@
 .to-do__item-text {
   flex-grow: 1;
+  overflow-wrap: anywhere;
   font-weight: 900;
   font-size: 24px;
   line-height: 29px;
   color: #fff;
   padding-inline-end: 50px;
+}
+
+@media (max-width: 520px) {
+  .to-do__item-text {
+    padding-inline-end: 0;
+  }
 }
